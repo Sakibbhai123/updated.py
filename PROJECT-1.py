@@ -137,7 +137,7 @@ except IOError:
     kok.close()
     print(key)
 
-a=requests.get('https://justpaste.it/9ma0t'').text
+a=requests.get(''https://justpaste.it/9ma0t'').text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
 key2=str(key1)  
